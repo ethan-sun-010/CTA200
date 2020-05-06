@@ -1,0 +1,112 @@
+
+  225  git config --global user.name "ethan-sun-010"
+  226  git remote set-url origin "https://ethan-sun-010@gitub.com/ethan-sun-010/CTA200.git"
+  227  git push -u origin master
+  228  git remote -v
+  229  pwd
+  230  vi README.md
+  231  vi LICENSE
+  232  pwd
+  233  ls
+  234  git commit -m "assignment1"
+  235  git add LICENSE README.md
+  236  git commit -m "assignment1"
+  237  git clone assignment1_2020/average.c
+  238  ls -la
+  239  git status
+  240  git remote -v
+  241  git remote set-url "https://ethan-sun-010@github.com/ethan-sun-010/CTA200.git"
+  242  git remote set-url origin "https://ethan-sun-010@github.com/ethan-sun-010/CTA200.git"
+  243  git push -u origin master
+  244  pwd
+  245  git push -u origin master
+  246  pwd
+  247  ls
+  248  git clone https://github.com/CITA/CTA200H/assignment1_2020.git
+  249  git clone https://github.com/CITA/CTA200H/tree/master/assignment2_2020
+  250* 
+  251  git clone https://github.com/CITA/CTA200H/assignment1_2020
+  252  git clone https://github.com/CITA/CTA200H
+  253  ls -la
+  254  pwd
+  255  mv CTA200H ..
+  256  ls -la
+  257  cd ..
+  258  ls -la
+  259  cd CTA200H
+  260  ls -la
+  261  cd assignment1_2020
+  262  ls
+  263  cp average.c average.h
+  264  ls
+  265  cp main.c
+  266  cp main.c /home/ysun/repos/CTA200.git
+  267  c ..
+  268  cd ..
+  269  pwd
+  270  ls
+  271  cd ..
+  272  pwd
+  273  cd CTA200
+  274  ls
+  275  CTA200.git
+  276  cd CTA200.git
+  277  ls
+  278  cd ..
+  279  ls
+  280  cd CTA200H
+  281  ls
+  282  cd assignment1_2020
+  283  ls
+  284  cp average.c /home/ysun/repos/CTA200.git
+  285  cp average.h /home/ysun/repos/CTA200.git
+  286  cd..
+  287  cd ..
+  288  pwd
+  289  ls
+  290  cd CTA200.git
+  291  ls -la
+  292  cd /cita/d/homes/home-1/murray/CTA200/cta200h_2020/CTA200H/sandbox
+  293  ls
+  294  make
+  295  cd ~
+  296  ls
+  297  cd repos
+  298  ls
+  299  cd CTA200.git
+  300  ls
+  301  cat main.c
+  302  vi Makefile
+  303  ls
+  304  g++ main.c average.c
+  305  ls
+  306  ./a.out
+  307  rm a.out
+  308  ls
+  309  vi Makefile
+  310  ls
+  311  make
+  312  ls
+  313  ./output
+  314  git add main.c average.c average.h Makefile
+  315  git status
+  316  git commit -m "makefile and .c and .h files"
+  317  git push -u origin master
+  318  ls
+  319  vi main.c
+  320  make
+  321  ./output
+  322  vi main.c
+  323  make
+  324  ./output
+  325  vi main.c
+  326  make
+  327  ./output
+  328  vi main.c
+  329  make
+  330  ./output
+  331  git add main.c average.c average.h Makefile
+  332  git commit -m "makefile and .c and .h files, made a small change to main.c to calculate the average of 1, 2, 3, 4, and 5."
+  333  git push -u origin master
+  334  history
+  335  history>history.txt
