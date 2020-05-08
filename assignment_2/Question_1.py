@@ -2,7 +2,7 @@
 import numpy
 import math
 import matplotlib.pyplot as plt
-import cmath
+import matplotlib.patches as mpatches
 
 
 c_converge_real = []
@@ -23,8 +23,11 @@ for x in numpy.arange(-2.0, 2.0, 0.01):
             c_diverge_real.append(c.real)
             c_diverge_imag.append(c.imag)
 
-plt.scatter(c_converge_real,c_converge_imag, color='red')
-plt.scatter(c_diverge_real,c_diverge_imag, color='blue')
+plt.scatter(c_converge_real,c_converge_imag, label = 'convergent c points', color='red')
+plt.scatter(c_diverge_real,c_diverge_imag, label = 'divergent c points', color='blue')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.legend()
 plt.show()
 
 
